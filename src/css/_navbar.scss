@@ -1,0 +1,16 @@
+.navbar{
+  background-color: $background-color !important;
+  color: $text-color;
+  .container{
+    .navbar-collapse{
+      .nav-link{
+        color: $text-color !important;
+        font-family: ApexMk2-BoldExtended !important;
+        font-weight: weight('bold') !important;
+        text-transform: uppercase;
+        font-size: 24px;
+      }
+    }
+  }
+
+}

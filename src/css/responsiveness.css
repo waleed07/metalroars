@@ -1,0 +1,453 @@
+/*mobile responsiveness*/
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    /*.navbar-dark .navbar-toggler{*/
+    /*    color: #FF4600 !important;*/
+    /*}*/
+    .header-div{
+        display: block !important;
+    }
+    .nav-link{
+        font-size: 14px !important;
+    }
+    .header-logo{
+        width: 100px !important;
+    }
+    .navbar-right{
+        margin-left: 0px !important;
+    }
+    #topbar-follow-us{
+        left: 5rem !important;
+    }
+    #topbar-follow-us-icon{
+        left: 10rem !important;
+    }
+    #topbar-follow-us p{
+        font-size: 14px !important;
+    }
+
+    .banner-image {
+        max-height: 200px !important;
+        object-fit: cover;
+        max-width: 100% !important;
+    }
+    .game_play_heading, .free_play_heading,
+    .road_map_heading, .our_team_heading, .advisor_heading,
+    .nft_collection_heading, .news_feed_heading,.tokonomics_heading,.tokonomics_span,.technology_heading,.faq_heading{
+        font-size: 18px !important;
+    }
+
+    .freeplay_container{
+        padding-top: 2rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .free_play_heading{
+        text-align: center !important;
+    }
+    .free_play_text{
+        font-size: 14px !important;
+        text-align: left !important;
+        word-spacing: -1px;
+    }
+    .game_play_row{
+        height: 260px !important;
+    }
+    .game_play_heading{
+        padding-top: 2rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    #road-map{
+        margin-top: 0rem !important;
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .road_map_ul li::marker{
+        font-size: 1.4rem;
+    }
+    .swiper{
+        width: 150px !important;
+        height: 200px !important;
+        justify-content: center;
+        /*float: left;*/
+    }
+    .truck_image{
+        width: 130px !important;
+    }
+    .slick-active{
+        display: grid !important;
+        justify-content: center;
+    }
+    .news_feed_col-2{
+        margin-top: 0rem !important;
+    }
+    /*.tokonomics_heading_row{*/
+    /*    top: 0px !important;*/
+    /*    right: 0px !important;*/
+    /*}*/
+    #news_feed_title{
+        font-size: 18px !important;
+        margin-top: 5rem !important;
+        text-align: center !important;
+    }
+    .news_feed_paragraph{
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+    #newsFeedPreviousButton,#newsFeedNextButton{
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 1.8rem !important;
+    }
+    .news_feed_container{
+        padding-top: 5rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .news_feed_link{
+        font-size: 14px !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    #team{
+        margin-top: 2rem !important;
+    }
+    .team_designation{
+        font-size: 14px !important;
+    }
+    .team_h{
+        font-size: 30px !important;
+    }
+    .team_h2{
+        font-size: 14px !important;
+        top: 0rem !important;
+    }
+    .team_container{
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .our_team_image_row .card .card-img, .advisor_image_row .card .card-img{
+        width: 100px !important;
+        height: 100px !important;
+
+    }
+    .our_team_image_row .card,.advisor_image_row .card{
+        margin-bottom: 10px !important;
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .road_map_date,.road_map_q{
+        font-size: 14px !important;
+    }
+
+    .road_map_ul{
+        padding-left: 1rem !important;
+    }
+    .road_map_ul li{
+        font-size: 11px !important;
+    }
+
+    #nft_collection_p{
+        font-size: 14px !important;
+    }
+    .truck_image_bottom{
+        width: 120px !important;
+        object-fit: contain;
+        height: 120px !important;
+    }
+    .truck_image_div::before,.truck_image_div::after{
+        width: 67px !important;
+    }
+    .tokonomic_col_2_mobile{
+        display: block !important;
+        text-align: center !important;
+        margin-bottom: 2rem !important;
+    }
+    #tokonomics_heading{
+        display: none !important;
+    }
+    #tokonomics_span{
+        display: none !important;
+    }
+    .tokonomic_col_2{
+        padding-top: 0rem !important;
+    }
+    .tokonomics_row{
+        margin-top: 5rem !important;
+    }
+    .tokonomics_image{
+        padding-top: 2rem !important;
+        padding-right: 0rem !important;
+    }
+    .tokonomics_image1{
+        width: 500px !important;
+    }
+    .team_title{
+        padding-top: 30px !important;
+        font-size: 13px !important;
+    }
+    #slickNext{
+        width: 39px !important;
+        height: 100px !important;
+        top: 0.5rem !important;
+        right: 15rem !important;
+    }
+    #slickPrev {
+        width: 39px !important;
+        height: 100px !important;
+        top: 0.5rem !important;
+        left: 15rem !important;
+    }
+    .inactive_truck:before,.inactive_truck:after{
+        display: none;
+    }
+    .news_feed_row{
+        margin-top: 2rem !important;
+    }
+    .technology_container{
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .faq_container{
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .accordion-button{
+        font-size: 14px !important;
+    }
+    .accordion-body{
+        font-size: 14px !important;
+    }
+    .footer-social-image{
+        width: 30px !important;
+    }
+    .footer-links,.footer-social-link{
+        font-size: 16px !important;
+    }
+    .footer_row-3,.footer_row{
+        text-align: center;
+    }
+
+}
+
+/*laptop screen responsiveness*/
+@media screen
+and (min-device-width: 1024px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1){
+
+    #topbar-follow-us{
+        left: 2rem !important;
+    }
+    #topbar-follow-us-icon{
+        left: 7rem !important;
+    }
+    #topbar-follow-us p{
+        font-size: 14px !important;
+    }
+    .nav-link{
+        padding-right: 2rem !important;
+        font-size: 18px !important;
+    }
+    .banner-image {
+        max-height: 600px !important;
+        object-fit: fill;
+        max-width: 100% !important;
+    }
+    .game_play_heading{
+        /*padding-left: 0rem !important;*/
+        /*padding-top: 0rem !important;*/
+        padding: 0rem !important;
+    }
+    .game_play_heading_row{
+        padding: 0rem !important;
+    }
+    .game_play_row{
+        height: 650px !important;
+    }
+    .game_play_heading, .free_play_heading,
+    .road_map_heading, .our_team_heading, .advisor_heading,
+    .nft_collection_heading, .news_feed_heading,.tokonomics_heading,.tokonomics_span,.technology_heading{
+        font-size: 40px !important;
+    }
+    .freeplay_container{
+        padding-top: 10rem !important;
+        padding-bottom: 10rem !important;
+    }
+    .free_play_text{
+        font-size: 16px !important;
+    }
+    /*.tokonomics_heading_row{*/
+    /*    top: 4rem !important;*/
+    /*    right: 2rem !important;*/
+    /*}*/
+    .road_map_ul li::marker{
+        font-size: 1.8rem !important;
+    }
+    .our_team_image_row .card .card-img, .advisor_image_row .card .card-img{
+        height: 130px !important;
+        width: 130px !important;
+    }
+    .our_team_image_row .card{
+        width: 130px !important;
+    }
+    .team_h{
+        font-size: 50px !important;
+    }
+    .team_h2{
+        font-size: 16px !important;
+        top: 0.6rem !important;
+    }
+    .team_title{
+        font-size: 14px !important;
+    }
+    .team_designation{
+        font-size: 16px !important;
+    }
+    #slickNext{
+        top: 0rem !important;
+        right: 5rem !important;
+    }
+    #slickPrev{
+        top: 0rem !important;
+        left: 5rem !important;
+    }
+    .tokonomics_image{
+        padding-top: 3rem !important;
+        width: 400px !important;
+    }
+    .tokonomic_col_1 img{
+        width: 450px !important;
+    }
+    .footer-links{
+        font-size: 32px !important;
+    }
+    .footer-social-link{
+        font-size: 18px !important;
+    }
+    .footer_row-3{
+        text-align: center;
+    }
+    .footer-logo-col{
+        text-align: center;
+    }
+}
+
+/*tablet responsiveness css*/
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1023px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .header-div{
+        display: block !important;
+    }
+    #topbar-follow-us{
+        left: 7rem !important;
+    }
+    #topbar-follow-us-icon{
+        left: 13rem !important;
+    }
+    .nav-link{
+        font-size: 18px !important;
+        padding-right: 0rem !important;
+    }
+    .navbar-right{
+        margin-left: 0px !important;
+    }
+    .header-logo{
+        width: 110px !important;
+    }
+    .banner-image {
+        height: 690px !important;
+        object-fit: fill;
+        max-width: 100% !important;
+    }
+    .game_play_heading, .free_play_heading, .road_map_heading, .our_team_heading,
+    .advisor_heading, .nft_collection_heading, .news_feed_heading,.tokonomics_heading,.tokonomics_span{
+        font-size: 32px !important;
+    }
+    .game_play_row{
+        height: 550px !important;
+    }
+    .free_play_text{
+        font-size: 14px !important;
+    }
+    .road_map_ul li::marker{
+        font-size: 1.5rem !important;
+    }
+    .road_map_ul li{
+        font-size: 14px !important;
+    }
+
+    /*.road_map_smocke{*/
+    /*    width: 250px !important;*/
+    /*    transform: translate(-118px, -20px) !important;*/
+    /*}*/
+    .nft_collection_row,.news_feed_row {
+        margin-top: 2rem !important;
+    }
+    #slickPrev {
+        width: 100px;
+        height: 239px;
+        top: 0rem;
+        left: 5rem;
+    }
+
+    #slickNext {
+        width: 100px;
+        height: 239px;
+        top: 0rem;
+        right: 5rem;
+    }
+    .swiper {
+        width: 250px !important;
+        height: 350px !important;
+    }
+    #news_feed_title{
+        font-size: 18px !important;
+    }
+    .news_feed_paragraph{
+        font-size: 14px !important;
+    }
+    #newsFeedPreviousButton{
+        /*width: 40px !important;*/
+        /*height: 50px !important;*/
+        /*font-size: 2rem !important;*/
+        position: relative;
+        right: 2rem;
+    }
+    /*.tokonomics_heading_row{*/
+    /*    top: 5rem !important;*/
+    /*    right: 5rem !important;*/
+    /*}*/
+    .our_team_image_row .card .card-img, .advisor_image_row .card .card-img{
+        height: 150px !important;
+    }
+    .team_title{
+        font-size: 11px !important;
+        padding-top: 40px !important;
+    }
+    .team_designation{
+        font-size: 12px !important;
+    }
+    .team_h{
+        font-size: 40px !important;
+    }
+    .team_h2{
+        font-size: 13px !important;
+        top: 0.6rem !important;
+    }
+    .footer-social-image{
+        width: 40px !important;
+    }
+    .footer-social-link{
+        font-size: 14px !important;
+    }
+    .footer-links{
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,26 @@
+$font-path:'../assets/fonts/';
+$heading-font-name:'Grind_Demolished';
+$apex-mk2-light-font-name:'ApexMk2-LightCondensed';
+$apex-mk2-regular-font-name:'ApexMk2-Regular';
+$apex-mk2-bold-extended-font-name:'ApexMk2-BoldExtended';
+
+@font-face {
+  font-family: $heading-font-name;
+  src: url(#{$font-path}#{$heading-font-name}.ttf) format("ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: $apex-mk2-light-font-name;
+  src: url(#{$font-path}#{$apex-mk2-light-font-name}.otf) format("otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: $apex-mk2-regular-font-name;
+  src: url(#{$font-path}#{$apex-mk2-regular-font-name}.otf) format("otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: $apex-mk2-bold-extended-font-name;
+  src: url(#{$font-path}#{$apex-mk2-bold-extended-font-name}.otf) format("otf");
+  font-display: swap;
+}

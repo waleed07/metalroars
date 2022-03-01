@@ -1,0 +1,20 @@
+// import all css files
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+@import "./functions";
+@import "./fonts";
+@import "./navbar";
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background:$background-color;
+}
+body{
+  font-family: ApexMk2-BoldExtended !important;
+  font-weight: weight('regular') !important;
+  background:$background-color;
+  color: $text-color;
+}

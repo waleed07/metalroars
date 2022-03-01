@@ -1,0 +1,614 @@
+@font-face {
+    font-family: ApexMk2-BoldExtended;
+    src: url(../assets/fonts/ApexMk2-BoldExtended.otf);
+}
+@font-face {
+    font-family: ApexMk2-Regular;
+    src: url(../assets/fonts/ApexMk2-Regular.otf);
+}
+@font-face {
+    font-family: ApexMk2-LightCondensed;
+    src: url(../assets/fonts/ApexMk2-LightCondensed.otf);
+}
+@font-face {
+    font-family: Grind_Demolished;
+    src: url(../assets/fonts/Grind_Demolished.ttf);
+}
+@font-face {
+    font-family: Square721-BT-Roman;
+    src: url(../assets/fonts/Square721-BT-Roman.TTF);
+}@font-face {
+    font-family: Square721-BT-Bold;
+    src: url(../assets/fonts/Square721-BT-Bold.TTF);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color:#000;
+}
+
+body{
+    font-family: ApexMk2-Regular !important;
+    font-weight: 400 !important;
+    background-color:#000;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+/* header top navbar css */
+#topbar-follow-us{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+#topbar-follow-us-icon{
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+}
+#topbar-follow-us p{
+    font-family: Square721-BT-Roman !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    font-size: 17px;
+}
+.navbar {
+    background-color: #000 !important;
+    color: #ffffff;
+    padding-top: 0px;
+}
+.navbar-right{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.navbar-left{
+    margin-top: 3rem;
+}
+.home-link{
+    /*border-bottom: 3px solid #FF4600;*/
+}
+/*.nav-link:first-child:hover{*/
+/*    border-bottom: 0px;*/
+/*}*/
+/*.nav-link:not(:first-child):hover{*/
+/*    border-bottom: 2px solid #FF4600;*/
+/*}*/
+
+.nav-link{
+    color: #ffffff !important;
+    font-family: ApexMk2-BoldExtended !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 4rem !important;
+
+}
+.banner-video{
+    /*position: relative;*/
+    /*height: 100vh;*/
+    /*!*width: 100vw;*!*/
+    /*overflow: hidden;*/
+}
+.banner-image{
+    /*max-height: 900px;*/
+    object-fit: fill;
+    max-width: 100%;
+    /*height: auto;*/
+    /*z-index: 2;*/
+    /*position: absolute;*/
+    /*width: auto;*/
+    /*height: auto;*/
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%,-50%);*/
+
+
+}
+/*slider css*/
+.carousel-item img{
+    height: auto;
+}
+.carousel-control-prev{
+    display: none;
+}
+.carousel-control-next{
+    display: none;
+}
+.carousel-indicators{
+    display: none;
+}
+
+/*game play section css*/
+.game_play_row{
+    background-image: url(../assets/images/game_play.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 1000px;
+    margin-bottom: 2rem;
+}
+.game_play_heading{
+    padding: 4rem;
+}
+.game_play_heading,.road_map_heading,.our_team_heading,.advisor_heading,.nft_collection_heading,.news_feed_heading,.faq_heading{
+    font-family: Grind_Demolished;
+    color: #FF4600;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+.game_play_heading:hover,.road_map_heading:hover,.our_team_heading:hover,
+.nft_collection_heading:hover,.news_feed_heading:hover,.faq_heading:hover,
+.tokonomics_heading:hover,.tokonomics_span:hover{
+    color: #fff;
+    transform: translate(-3%,3%);
+}
+.truck_image:hover{
+    transform: translate(-5%,5%);
+}
+
+.free_play_heading{
+    font-family: Grind_Demolished;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.free_play_text{
+    font-family: Square721-BT-Roman !important;
+    font-weight: 400 !important;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: none !important;
+}
+.freeplay_container{
+    background-color: #FF4600;
+    color: #ffffff;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+/*.game_play_heading_row{*/
+/*    padding-top: 3rem!important;*/
+/*    margin-top: 3rem!important;*/
+/*}*/
+
+/*road map css*/
+#road-map{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+.road_map_heading_div{
+    padding-bottom: 3rem;
+}
+.road_map_row{
+    margin-bottom: 2rem;
+}
+.road_map_date{
+    color: #FF4600;
+}
+#road_map_hr{
+    border: 1px solid #ffffff;
+    height: 2px;
+    background-color: #fff;
+    color: #fff;
+    opacity: 1;
+}
+.road_map_q{
+    font-size: 21px;
+}
+.road_map_row-4{
+    position: relative;
+    top: -30px;
+}
+.road_map_ul li{
+    font-family: Square721-BT-Roman !important;
+    /*font-weight: 600 !important;*/
+    /*color: #ffffff;*/
+}
+.road_map_ul li::marker
+{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #FF4600;
+}
+/*.road_map_smocke{*/
+/*    transform: translate(-200px, -40px)*/
+/*}*/
+.road_map_smoke_animation{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+/*nft monster collection css*/
+.nft_container{
+
+    /*background-color: #1D1D1D;*/
+}
+.nft_collection_row-2{
+    margin-bottom: 4rem;
+}
+.nft_collection_container{
+    padding-top: 4rem;
+    padding-bottom: 8.5rem;
+}
+.truck_image_bottom{
+    margin-top: 2rem;
+}
+.nft_collection_monster_heading{
+    color: #ffffff;
+}
+.slick-prev:before, .slick-next:before{
+    display: none;
+}
+.nft_collection_row{
+    margin-bottom: 2rem;
+}
+#nft_collection_hr{
+    border: 1px solid #FF4600;
+    height: 2px;
+    background-color: #fff;
+    color: #fff;
+    opacity: 1;
+}
+#nft_collection_p{
+    font-family: Square721-BT-Roman !important;
+    font-size: 16px;
+}
+.truck_image_div::before{
+    content:url('../assets/images/fliper_1.svg'); /* with class ModalCarrot ??*/
+    position:relative; /*or absolute*/
+    /*z-index:100000; !*a number that's more than the modal box*!*/
+    /*left:-50px;*/
+    /*top:10px;*/
+    width: 200px;
+}
+.truck_image_div::after{
+    content:url('../assets/images/fliper_2.svg'); /* with class ModalCarrot ??*/
+    position:relative; /*or absolute*/
+    width: 200px;
+}
+#slickPrev{
+    width: 100px;
+    height: 360px;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+    z-index: 1;
+}
+#slickNext{
+    width: 100px;
+    height: 360px;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    top: 4rem;
+    right: 10rem;
+    z-index: 1;
+}
+
+/*news feed css*/
+.news_feed_container{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+.swiper {
+    width: 350px;
+    height: 300px;
+}
+.swiper_image{
+    font-size: 11px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+    /*background-color: rgb(206, 17, 17);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(2n) {
+    /*background-color: rgb(0, 140, 255);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(3n) {
+    /*background-color: rgb(10, 184, 111);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(4n) {
+    /*background-color: rgb(211, 122, 7);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(5n) {
+    /*background-color: rgb(118, 163, 12);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(6n) {
+    /*background-color: rgb(180, 10, 47);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(7n) {
+    /*background-color: rgb(35, 99, 19);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(8n) {
+    /*background-color: rgb(0, 68, 255);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(9n) {
+    /*background-color: rgb(218, 12, 218);*/
+    background-color: #000000;
+}
+
+.swiper-slide:nth-child(10n) {
+    /*background-color: rgb(54, 94, 77);*/
+    background-color: #000000;
+}
+
+.news_feed_col-2{
+    padding-top: 5rem;
+}
+.news_feed_row{
+    margin-bottom: 2rem;
+}
+#news_feed_title{
+    font-size: 22px;
+}
+.news_feed_paragraph{
+    font-family: Square721-BT-Roman !important;
+    font-size: 16px;
+}
+
+#newsFeedPreviousButton{
+    cursor: pointer;
+    width: 62px;
+    height: 57px;
+    border: 1px solid #FF4600;
+    opacity: 1;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#newsFeedNextButton{
+    cursor: pointer;
+    width: 62px;
+    height: 57px;
+    border: 1px solid #FF4600;
+    opacity: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FF4600;
+}
+
+/*tokonomics distribution css*/
+.tokonomics_container{
+    padding-bottom: 6rem;
+}
+.tokonomics_heading{
+    font-family: Grind_Demolished;
+    color: #FF4600;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.tokonomics_span{
+    font-family: Grind_Demolished;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.tokonomics_image{
+    padding-top: 5rem;
+    padding-right: 1rem;
+}
+.tokonomics_row{
+    margin-top: 10rem;
+
+}
+
+/*.tokonomics_heading_row{*/
+/*    position: absolute;*/
+/*    top: 18rem;*/
+/*    right: 26rem;*/
+/*}*/
+.tokonomic_col_1{
+    /*padding-left: 6rem;*/
+    text-align: right;
+}
+.tokonomic_col_2{
+    padding-top: 4rem;
+
+}
+.tokonomics_image_div{
+    text-align: left;
+}
+/*our team css*/
+.team_container{
+    background-color: #1D1D1D;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+.team_h{
+    font-size: 90px;
+    color: #FF4600;
+}
+.team_h2{
+    font-size: 27px;
+    position: relative;
+    top: 1rem;
+}
+.our_team_image_row{
+    margin-bottom: 5rem;
+}
+.our_team_row{
+    margin-top: 5rem;
+}
+.our_team_image_row .card,.advisor_image_row .card{
+    border-radius: 0;
+    /*background-color: #373737;*/
+    border: 1px solid #333333;
+    width: 150px;
+}
+.our_team_image_row .card .card-img,.advisor_image_row .card .card-img{
+    border: 1px solid #333333;
+    border-radius: 0px;
+    object-fit: cover;
+    height: 160px;
+
+}
+.team_title{
+    font-family: Square721-BT-Roman !important;
+    font-size: 18px;
+    padding-top: 60px;
+    color: #FF4600;
+    display: flex;
+    /*font-weight: bold;*/
+}
+.team_designation{
+    font-family: Square721-BT-Roman !important;
+    font-size: 20px;
+    padding-top: 20px;
+    display: flex;
+    font-weight: bold;
+}
+/* technology css*/
+
+.technology_container{
+    background-color: #FF4600;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+.technology_heading{
+    color: #fff;
+    font-family: Grind_Demolished;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 5rem
+}
+
+/*faqs css*/
+.faq_container{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+.faq_heading{
+    margin-bottom: 4rem;
+}
+.accordion-header{
+    font-family: Square721-BT-Roman !important;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+.accordion-body{
+    background-color: #000000;
+    font-family: Square721-BT-Roman !important;
+    font-size: 16px;
+    /*padding-left: 5rem;*/
+}
+.accordion-button:focus{
+    border-color: #000;
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    content: " + ";
+    color: #FF4600;
+    background-image:none;
+    font-weight: 600;
+
+}
+.accordion-button:not(.collapsed)::after{
+    content: " - ";
+    color: #FF4600;
+    background-image:none;
+    font-weight: 600;
+    transform: rotate(360deg);
+}
+.accordion-button{
+    color: #fff;
+    background-color: #000;
+    box-shadow: none;
+    font-size: 21px;
+}
+.accordion-item{
+    border: 0px;
+    background-color: #000000;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: #000;
+    box-shadow: none;
+}
+/*footer css*/
+.footer{
+    background-color: #000;
+    /*background-image: url("../assets/images/footer.png");*/
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../assets/images/footer.png");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    padding: 3rem;
+    background-position: center;
+    /*padding-bottom: 10rem;*/
+}
+
+.footer-social-image{
+    margin: auto;
+    display: block;
+}
+.footer-social-link{
+    font-family: Square721-BT-Roman !important;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.footer_row-2,.footer_row-3,.footer_row-4{
+    margin-top: 2rem;
+}
+.footer-links{
+    font-family: ApexMk2-BoldExtended !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer-scroll{
+    font-family: Square721-BT-Roman !important;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #FF4600;
+}
