@@ -154,9 +154,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 14px !important;
     }
     .truck_image_bottom{
-        width: 120px !important;
+        width: 190px !important;
         object-fit: contain;
-        height: 120px !important;
+        height: 110px !important;
     }
     .truck_image_div::before,.truck_image_div::after{
         width: 67px !important;
@@ -190,16 +190,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 13px !important;
     }
     #slickNext{
-        width: 39px !important;
-        height: 100px !important;
+        width: 80px !important;
+        height: 142px !important;
         top: 0.5rem !important;
-        right: 15rem !important;
+        right: 16rem !important;
     }
     #slickPrev {
-        width: 39px !important;
-        height: 100px !important;
+        width: 85px !important;
+        height: 139px !important;
         top: 0.5rem !important;
-        left: 15rem !important;
+        left: 16rem !important;
     }
     .inactive_truck:before,.inactive_truck:after{
         display: none;

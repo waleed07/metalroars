@@ -47,7 +47,9 @@ export default function NavBar({ history }) {
                             <Nav.Link href="#road-map">Road Map</Nav.Link>
                             <Nav.Link href="#whitepaper">Whitepaper</Nav.Link>
                         </Nav>
-                        <Image className="header-logo" loading="lazy" src={Logo} width="200px" height="130px" alt="metal roar logo" fluid={true} />
+                        <div>
+                            <Image className="header-logo" loading="lazy" src={Logo} alt="metal roar logo" fluid={true} />
+                        </div>
                         <Nav className="navbar-right">
                             <Nav.Link href="#tokonomic">Tokonomic</Nav.Link>
                             <Nav.Link href="#team">Team</Nav.Link>

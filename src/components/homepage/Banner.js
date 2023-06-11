@@ -12,7 +12,7 @@ export default function Banner({ history }) {
                     className="d-block w-100 banner-image"
                     src={HeaderVideo}
                     // width="1000"
-                    height="1000"
+                    // height="1000"
                     controls={false}
                     autoPlay={true}
                     playsInline={true}

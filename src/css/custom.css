@@ -92,6 +92,9 @@ a:hover{
     padding-right: 4rem !important;
 
 }
+.header-logo{
+    width: 100px;
+}
 .banner-video{
     /*position: relative;*/
     /*height: 100vh;*/
